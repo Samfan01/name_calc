@@ -1,0 +1,7 @@
+.jumboron h1{
+    position: sticky;
+}
+*{
+    background-image:url(../images/background.webp);
+    background-repeat: no-repeat;
+}

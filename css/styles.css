@@ -14,7 +14,7 @@ nav{
     width: 5%;
 }
 nav ul{
-    margin-left: 68%;
+    margin-left: 65%;
     margin-bottom: 3px;
 }
 nav ul li{
@@ -47,4 +47,11 @@ footer{
 #about p{
     color: rgb(17, 180, 126);
     font-weight: bolder;
+}
+#underline{
+    border-bottom:solid black 5px;
+    text-align: center;
+}
+#date{
+    color: black;
 }

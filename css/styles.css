@@ -26,11 +26,15 @@ nav ul li{
     width: 100%;
 }
 .jumbotron{
-    background-image:url(../images/monkey_logo2-02.png);
-    background-size: contain cover;
-    background-repeat: no-repeat;
+    color:rgb(37, 38, 41);
     height: 20px;
+    font-weight: bolder;
+    font-style: oblique;
+    font-size: xx-large;
 }
 .row2{
-    float: right;
+    
+}
+#one{
+    color: ivory;
 }

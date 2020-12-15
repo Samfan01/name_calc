@@ -1,20 +1,14 @@
-.jumbotron{
-    color: aqua;
+body{
+    background-image:url(../images/background1.webp);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: inherit;
 }
-.jumbotron h1{
-    font-size:100px ;
-    font-weight: bolder;
-    font-family: "Courier New", Courier, monospace;
-
+nav{
+    font-weight: bold;
+    color: ivory;
 }
-*{
-    background-image:url(../images/background.webp);
-    background-repeat: repeat;
-}
-#overlay{
-    height: 100%;
-    width: 100%;
-    position: fixed;
-   
-    background-color: rgba(0,0,0,3);
+nav img{
+    height: 5%;
+    width: 5%;
 }

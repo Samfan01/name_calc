@@ -10,7 +10,7 @@ var cc=parseInt(document.getElementById("century").value);
 var gender=document.getElementById('sel1').value;
 var day =parseInt( ( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) % 7)
 
-if(yy<=0 || yy=="" || yy>20){
+if(yy<=0 || yy=="" || yy>99){
     alert('invalid year')
 }
 if(mm<=0 || mm=="" || mm>12){
@@ -20,16 +20,13 @@ if(dd<=0 || dd=="" || dd>31){
     alert('invalid day')
 }
 if(cc<=0 || cc=="" || cc>20){
-    alert('invalid cent')
-}//else if(0<yy<20 && 0<mm<12 && 0<dd<31 && 0<cc<20 ){
-    //alert(day)
+    alert('invalid year')
 }
-if(gender==="male" ){
-    alert(maleNames[day])
+if(gender="Male"){
+    document.getElementById('akan').innerHTML='Your Akan name is '+maleNames[day];
 }
-///if(gender===sel1){
-    //alert(day)
-//}
-
+if(gender="female"){
+    document.getElementById('akan').innerHTML='Your Akan name is '+femaleNames[day]
+}
    
 }

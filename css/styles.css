@@ -32,7 +32,13 @@ nav ul li{
     font-style: oblique;
     font-size: xx-large;
 }
-.row2{
+footer{
+    background-color: rgba(247, 237, 233, 0.267);
+    padding: 20px;
+    color: ivory;
+    text-align: center;
+    font-weight: bolder;
+    font-size: x-large;
     
 }
 #one{

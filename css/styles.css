@@ -44,3 +44,7 @@ footer{
 #one{
     color: ivory;
 }
+#about p{
+    color: rgb(17, 180, 126);
+    font-weight: bolder;
+}

@@ -1,6 +1,7 @@
-var input=document.getElementById("birth").value;
-var input1=document.getElementById("birth1").value;
-var input2=document.getElementById("birth2").value;
+function output(){
+var input=parseInt(document.getElementById("birth").value);
+var input1=parseInt(document.getElementById("birth1").value);
+var input2=parseInt(document.getElementById("birth2").value);
 //var split=input2.charAt(0);
 //var split1=input2.charAt(1);
 //var join=split+split1;
@@ -12,4 +13,5 @@ var input2=document.getElementById("birth2").value;
 //var day="( ( (join/4) -2*join-1) + ((5*join1/4) ) + ((26*(input1+1)/10)) + input )%7
 function some(){
     alert(input1);
+}
 }

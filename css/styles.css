@@ -7,7 +7,7 @@ body{
 nav{
     font-weight: bold;
     color: ivory;
-    position: fixed;
+    position: sticky;
 }
 .navbar-brand{
     height: 5%;
@@ -22,4 +22,12 @@ nav ul li{
   display: inline;
   padding: 5px;
 }
-
+.container{
+    width: 100%;
+}
+.jumbotron{
+    background-image:url(../images/monkey_logo2-02.png);
+    background-size: contain cover;
+    background-repeat: no-repeat;
+    height: 20px;
+}

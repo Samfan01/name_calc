@@ -12,7 +12,7 @@
     <img class="navbar-brand" src="./images/icon.webp">AFRICA UNITED</img>
     <ul>
         <li id="nav-content">ABOUT US</li>
-        <li id="nav-content">GO TO FORM</li>
+        <li id="nav-content" ><a href="#form">GO TO FORM</a></li>
     </ul>
   </nav>
 <body>
@@ -21,19 +21,12 @@
             <h1>Akana names</h1>
         </div>
             <h1>about us</h1>
+            <h2>What Does Name "Akana" Mean</h2>
             <div class="row" >
               <div class="col-sm-6">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros, 
-                    pulvinar facilisis justo mollis, auctor consequat urna. Morbi a bibendum metus. 
-                    Donec scelerisque sollicitudin enim eu venenatis. Duis tincidunt laoreet ex, 
-                    in pretium orci vestibulum eget. Class aptent taciti sociosqu ad litora torquent
-                    per conubia nostra, per inceptos himenaeos. Duis pharetra luctus lacus ut 
-                    vestibulum. Maecenas ipsum lacus, lacinia quis posuere ut, pulvinar vitae dolor.
-                    Integer eu nibh at nisi ullamcorper sagittis id vel leo. Integer feugiat 
-                    faucibus libero, at maximus nisl suscipit posuere. Morbi nec enim nunc. 
-                    Phasellus bibendum turpis ut ipsum egestas, sed sollicitudin elit convallis. 
-                    Cras pharetra mi tristique sapien vestibulum lobortis. Nam eget bibendum metus, 
-                    non dictum mauris. Nulla at tellus sagittis, viverra est a, bibendum metus.</p>
+                <p>Powerful and complete. You are good intellectually and require several outlets for your energies. You are not a builder but a planner, and you want others to carry out your plans.You are bold, independent, inquisitive and interested in research. You know what you want and why you want it.</p>
+                <br>
+                <p>Powerful and complete. You are good intellectually and require several outlets for your energies. You are not a builder but a planner, and you want others to carry out your plans.You are bold, independent, inquisitive and interested in research. You know what you want and why you want it.Whatch the video for more information.</p>
               </div>
                   <div class="col-sm-6">
                     <video width="100%" height="340" controls>
@@ -42,14 +35,14 @@
                       </video>
                   </div>
             </div>
-                  <div class="row">
+                  <div class="row" id="form">
                       <div class="col-sm-12">
                           <h2>Begin here</h2>
                         <div class="form-group">
                             <label for="sel1">Gender</label>
                             <select class="form-control" id="sel1">
-                              <option>Male</option>
-                              <option>Female</option>
+                              <option id="man">Male</option>
+                              <option id="fem">Female</option>
                             </select>
                           </div>
                           <div class="col-sm-12">
@@ -66,11 +59,15 @@
                                     <label for="year">Enter your year of birth:</label>
                                     <input type="year" class="form-control" id="birth2">
                                   </div>
+                                  <div class="form-group">
+                                    <label for="cent">Enter your century of birth:</label>
+                                    <input type="cent" class="form-control" id="birth3">
+                                  </div>
                                 <div class="form-group">
                                   <label for="name">Enter your name:</label>
                                   <input type="name" class="form-control" id="name">
                                 </div>
-                                <button type="button" class="btn btn-success">Submit</button>
+                                <button  onclick="some()" type="button" class="btn btn-success">Submit</button>
                                   </div>
                                 </div>
                               </form>
@@ -88,6 +85,6 @@
     
     
     </div>
-   <script src="./script.js"></script> 
+   <script src="/script.js"></script> 
 </body>
 </html>

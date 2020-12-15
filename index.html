@@ -4,9 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Name calculator</title>
-</head>
-<body>
-    <h1>Akana names</h1>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/bootstrap.min.css">
     
+</head>
+<nav class="navbar-fixed-top navbar navbar-expand-sm bg-dark navbar-dark ">
+    <img class="navbar-brand" src="./images/icon.webp">AFRICA UNITED</img>
+    <ul>
+        <li id="nav-content"><a href="#about">ABOUT AKANA</a></li>
+        <li id="nav-content" ><a href="#form">GO TO FORM</a></li>
+    </ul>
+  </nav>
+<body>
+    <div class="container-fluid" id="one">
+        <div class="jumbotron">
+            <h1>Akana names</h1>
+        </div>
+        <div id="about">
+            <h1 id="underline">About Akana</h1>
+            <h2>What Does Name "Akana" Mean</h2>
+            <div class="row" >
+              <div class="col-sm-6">
+                <p>Powerful and complete. You are good intellectually and require several outlets for your energies. You are not a builder but a planner, and you want others to carry out your plans.You are bold, independent, inquisitive and interested in research. You know what you want and why you want it.</p>
+                <br>
+                <p>Powerful and complete. You are good intellectually and require several outlets for your energies. You are not a builder but a planner, and you want others to carry out your plans.You are bold, independent, inquisitive and interested in research. You know what you want and why you want it.Whatch the video for more information.</p>
+              </div>
+
+                  <div class="col-sm-6">
+                    <video width="100%" height="440" controls>
+                        <source src="./videos/African Names _ GHANA (Learn Twi).mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                      </video>
+                  </div>
+            </div>
+            
+                  <div class="row" id="form">
+                      <div class="col-sm-12">
+                          <h2>Begin here</h2>
+                       <div class="form-group">
+                            <label for="sel1">Gender</label>
+                            <select class="form-control" id="sel1">
+                              <option>Male</option>
+                              <option>Female</option>
+                            </select>
+                      </div>
+
+                      <form>
+                          <div class="form-group">
+                            <label for="sample">Enter your date of birth:</label>
+                            <input type="number" class="form-control" id="date" required/>
+                          </div>
+
+                           <div class="form-group">
+                             <label for="sample">Enter your month of birth:</label>
+                             <input type="number" class="form-control" id="month" required/>
+                           </div>
+
+                          <div class="form-group">
+                            <label for="sample">Enter your year of birth:</label>
+                           <input type="number" class="form-control" id="year" required/>
+                          </div>
+
+                          <div class="form-group">
+                           <label for="sample">Enter your century of birth:</label>
+                          <input type="number" class="form-control" id="century" required/>
+                         </div>
+
+                           <div class="form-group">
+                             <label for="name">Enter your name:</label>
+                             <input type="name" class="form-control" id="name" required/>
+                          </div>
+                      </form>
+                    <button  onclick="some()" type="button" class="btn btn-success">Submit</button>
+                  <h4 id="akan">name</h4>
+          <footer>
+            <p>Note that Akan names are Ghanian.</p>
+         </footer>
+        </div>
+   <script src="/script.js"></script> 
 </body>
 </html>

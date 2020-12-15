@@ -1,0 +1,54 @@
+body{
+    background-image:url(../images/background1.webp);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: inherit;
+}
+nav{
+    font-weight: bold;
+    color: ivory;
+    position: sticky;
+}
+.navbar-brand{
+    height: 5%;
+    width: 5%;
+}
+nav ul{
+    margin-left: 65%;
+    margin-bottom: 3px;
+}
+nav ul li{
+  color: aquamarine;
+  display: inline;
+  padding: 5px;
+}
+.container{
+    width: 100%;
+}
+.jumbotron{
+    color:rgb(37, 38, 41);
+    height: 20px;
+    font-weight: bolder;
+    font-style: oblique;
+    font-size: xx-large;
+}
+footer{
+    background-color: rgba(247, 237, 233, 0.267);
+    padding: 20px;
+    color: ivory;
+    text-align: center;
+    font-weight: bolder;
+    font-size: x-large;
+    
+}
+#one{
+    color: ivory;
+}
+#about p{
+    color: rgb(17, 180, 126);
+    font-weight: bolder;
+}
+#underline{
+    border-bottom:solid black 5px;
+    text-align: center;
+}

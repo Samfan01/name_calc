@@ -7,8 +7,19 @@ body{
 nav{
     font-weight: bold;
     color: ivory;
+    position: fixed;
 }
-nav img{
+.navbar-brand{
     height: 5%;
     width: 5%;
 }
+nav ul{
+    margin-left: 68%;
+    margin-bottom: 3px;
+}
+nav ul li{
+  color: aquamarine;
+  display: inline;
+  padding: 5px;
+}
+

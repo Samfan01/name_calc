@@ -41,6 +41,14 @@ footer{
     font-size: x-large;
     
 }
+#akan{
+    background-color:white;
+    border-radius:20%;
+    padding: 30px;
+    text-align: center;
+    color: chartreuse;
+    font-weight: bolder;
+}
 #one{
     color: ivory;
 }

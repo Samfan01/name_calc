@@ -25,7 +25,7 @@ if(cc<=0 || cc=="" || cc>20){
 if(gender==="Male"){
     document.getElementById('akan').innerHTML='Your Akan name is '+maleNames[day];
 }
-if(gender==="female"){
+if(gender==="Female"){
     document.getElementById('akan').innerHTML='Your Akan name is '+femaleNames[day]
 }
    

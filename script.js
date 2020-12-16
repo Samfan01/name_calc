@@ -22,10 +22,10 @@ if(dd<=0 || dd=="" || dd>31){
 if(cc<=0 || cc=="" || cc>20){
     alert('invalid year')
 }
-if(gender="Male"){
+if(gender==="Male"){
     document.getElementById('akan').innerHTML='Your Akan name is '+maleNames[day];
 }
-if(gender="female"){
+if(gender==="female"){
     document.getElementById('akan').innerHTML='Your Akan name is '+femaleNames[day]
 }
    
